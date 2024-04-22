@@ -9,8 +9,8 @@ ci:
     args: -e JAVA_HOME=/opt/java/openjdk-21
 components:
   - name: OpenSearch
-    repository: https://github.com/opensearch-project/OpenSearch.git
-    ref: tags/2.13.0
+    repository: https://github.com//LiorF-BDBQ/OpenSearch.git
+    ref: 2.13.0-fix-npe
   - name: common-utils
     repository: https://github.com/opensearch-project/common-utils.git
     ref: tags/2.13.0.0
